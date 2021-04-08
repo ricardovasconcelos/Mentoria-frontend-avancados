@@ -1,0 +1,40 @@
+.count {
+    width: 20rem;
+    height: 10rem;
+    background-color: rgb(100, 228, 211);
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.count-label {
+    text-align: center;
+    color: rgb(73, 72, 72);
+}
+
+.count-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.count-buttons > button{
+    width: 40%;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+.count-buttons > button:hover{
+    background-color: rgb(224, 223, 223);
+    transition: 0.5s;
+}
+
+.count-buttons > button:focus{
+    outline: none;
+}
